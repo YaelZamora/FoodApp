@@ -11,6 +11,8 @@
 		7E1D73522B6D910C0063BF9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D73512B6D910C0063BF9C /* ContentView.swift */; };
 		7E1D73542B6D910F0063BF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D73532B6D910F0063BF9C /* Assets.xcassets */; };
 		7E1D73572B6D910F0063BF9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D73562B6D910F0063BF9C /* Preview Assets.xcassets */; };
+		7E1D735E2B6D94BD0063BF9C /* InfoAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D735D2B6D94BD0063BF9C /* InfoAbout.swift */; };
+		7E1D73602B6D9B150063BF9C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D735F2B6D9B150063BF9C /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7E1D73512B6D910C0063BF9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E1D73532B6D910F0063BF9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E1D73562B6D910F0063BF9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E1D735D2B6D94BD0063BF9C /* InfoAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAbout.swift; sourceTree = "<group>"; };
+		7E1D735F2B6D9B150063BF9C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				7E1D734F2B6D910C0063BF9C /* FoodAppApp.swift */,
+				7E1D735D2B6D94BD0063BF9C /* InfoAbout.swift */,
 				7E1D73512B6D910C0063BF9C /* ContentView.swift */,
+				7E1D735F2B6D9B150063BF9C /* LoginView.swift */,
 				7E1D73532B6D910F0063BF9C /* Assets.xcassets */,
 				7E1D73552B6D910F0063BF9C /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1D735E2B6D94BD0063BF9C /* InfoAbout.swift in Sources */,
 				7E1D73522B6D910C0063BF9C /* ContentView.swift in Sources */,
+				7E1D73602B6D9B150063BF9C /* LoginView.swift in Sources */,
 				7E1D73502B6D910C0063BF9C /* FoodAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
