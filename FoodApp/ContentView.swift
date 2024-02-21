@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+extension Text {
+    func coloredText(_ color: Color) -> Text {
+        self.foregroundColor(color)
+    }
+}
+
 struct ContentView: View {
     var body: some View {
         NavigationStack {

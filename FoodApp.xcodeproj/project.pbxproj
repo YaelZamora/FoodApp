@@ -13,6 +13,12 @@
 		7E1D73572B6D910F0063BF9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D73562B6D910F0063BF9C /* Preview Assets.xcassets */; };
 		7E1D735E2B6D94BD0063BF9C /* InfoAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D735D2B6D94BD0063BF9C /* InfoAbout.swift */; };
 		7E1D73602B6D9B150063BF9C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D735F2B6D9B150063BF9C /* LoginView.swift */; };
+		7EBD1A7B2B86700400DA2702 /* NotificationTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD1A7A2B86700400DA2702 /* NotificationTab.swift */; };
+		7EBD1A7D2B86703400DA2702 /* AccountTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD1A7C2B86703300DA2702 /* AccountTab.swift */; };
+		7EBD1A802B86707A00DA2702 /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD1A7F2B86707A00DA2702 /* CardItem.swift */; };
+		7EDF8FBE2B866DD100370122 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF8FBD2B866DD100370122 /* TabView.swift */; };
+		7EDF8FC12B866E3500370122 /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF8FC02B866E3500370122 /* HomeTab.swift */; };
+		7EDF8FC32B866E4300370122 /* BuyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF8FC22B866E4300370122 /* BuyTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +29,12 @@
 		7E1D73562B6D910F0063BF9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7E1D735D2B6D94BD0063BF9C /* InfoAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAbout.swift; sourceTree = "<group>"; };
 		7E1D735F2B6D9B150063BF9C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7EBD1A7A2B86700400DA2702 /* NotificationTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTab.swift; sourceTree = "<group>"; };
+		7EBD1A7C2B86703300DA2702 /* AccountTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTab.swift; sourceTree = "<group>"; };
+		7EBD1A7F2B86707A00DA2702 /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		7EDF8FBD2B866DD100370122 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		7EDF8FC02B866E3500370122 /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		7EDF8FC22B866E4300370122 /* BuyTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +67,12 @@
 		7E1D734E2B6D910C0063BF9C /* FoodApp */ = {
 			isa = PBXGroup;
 			children = (
+				7EBD1A7E2B86706600DA2702 /* Widgets */,
+				7EDF8FBF2B866E2900370122 /* Tabs */,
 				7E1D734F2B6D910C0063BF9C /* FoodAppApp.swift */,
 				7E1D735D2B6D94BD0063BF9C /* InfoAbout.swift */,
 				7E1D73512B6D910C0063BF9C /* ContentView.swift */,
+				7EDF8FBD2B866DD100370122 /* TabView.swift */,
 				7E1D735F2B6D9B150063BF9C /* LoginView.swift */,
 				7E1D73532B6D910F0063BF9C /* Assets.xcassets */,
 				7E1D73552B6D910F0063BF9C /* Preview Content */,
@@ -71,6 +86,25 @@
 				7E1D73562B6D910F0063BF9C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7EBD1A7E2B86706600DA2702 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				7EBD1A7F2B86707A00DA2702 /* CardItem.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		7EDF8FBF2B866E2900370122 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF8FC02B866E3500370122 /* HomeTab.swift */,
+				7EDF8FC22B866E4300370122 /* BuyTab.swift */,
+				7EBD1A7A2B86700400DA2702 /* NotificationTab.swift */,
+				7EBD1A7C2B86703300DA2702 /* AccountTab.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EDF8FC12B866E3500370122 /* HomeTab.swift in Sources */,
+				7EBD1A7D2B86703400DA2702 /* AccountTab.swift in Sources */,
+				7EBD1A802B86707A00DA2702 /* CardItem.swift in Sources */,
+				7EDF8FBE2B866DD100370122 /* TabView.swift in Sources */,
+				7EDF8FC32B866E4300370122 /* BuyTab.swift in Sources */,
 				7E1D735E2B6D94BD0063BF9C /* InfoAbout.swift in Sources */,
 				7E1D73522B6D910C0063BF9C /* ContentView.swift in Sources */,
 				7E1D73602B6D9B150063BF9C /* LoginView.swift in Sources */,
+				7EBD1A7B2B86700400DA2702 /* NotificationTab.swift in Sources */,
 				7E1D73502B6D910C0063BF9C /* FoodAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
